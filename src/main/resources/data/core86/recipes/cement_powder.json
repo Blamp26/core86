@@ -1,18 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "CC",
-    "CL"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:calcite" },
+    { "item": "minecraft:calcite" },
+    { "item": "minecraft:calcite" },
+    { "item": "minecraft:clay" }
   ],
-  "key": {
-    "C": {
-      "item": "minecraft:calcite"
-    },
-    "L": {
-      "item": "minecraft:clay"
-    }
-  },
   "result": {
-    "item": "core86:cement_powder"
+    "item": "core86:cement_powder",
+    "count": 1
   }
 }

@@ -1,0 +1,10 @@
+{
+  "type": "create:pressing",
+  "ingredient": {
+    "item": "core86:wet_concrete_mix"
+  },
+  "result": {
+    "item": "core86:reinforced_concrete_block"
+  },
+  "processingTime": 150
+}
