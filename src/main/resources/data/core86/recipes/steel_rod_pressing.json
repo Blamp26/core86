@@ -1,10 +1,14 @@
 {
   "type": "create:pressing",
-  "ingredient": {
-    "item": "core86:steel_ingot"
-  },
-  "result": {
-    "item": "core86:steel_rod"
-  },
+  "ingredients": [
+    {
+      "tag": "forge:ingots/steel"
+    }
+  ],
+  "results": [
+    {
+      "item": "core86:steel_rod"
+    }
+  ],
   "processingTime": 50
 }

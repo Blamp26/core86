@@ -9,7 +9,7 @@ public class ReinforcedConcreteBlock extends Block {
     public ReinforcedConcreteBlock() {
         super(BlockBehaviour.Properties.of()
                 .mapColor(MapColor.COLOR_GRAY)
-                .strength(9.0F, 30.0F)
+                .strength(6.0F, 15.0F)
                 .sound(SoundType.STONE)
                 .requiresCorrectToolForDrops());
     }
