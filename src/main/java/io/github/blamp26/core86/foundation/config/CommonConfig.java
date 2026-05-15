@@ -1,4 +1,4 @@
-﻿package io.github.blamp26.core86.foundation.config;
+package io.github.blamp26.core86.foundation.config;
 
 public final class CommonConfig {
 }

@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "core86:cement_powder"
+    }
+  ],
+  "fluidIngredients": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "core86:wet_concrete_mix"
+    }
+  ],
+  "processingTime": 100
+}
