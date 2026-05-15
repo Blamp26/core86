@@ -1,18 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "S",
-    "W"
-  ],
-  "key": {
-    "S": {
-      "item": "core86:steel_rod"
-    },
-    "W": {
+  "type": "create:deploying",
+  "ingredients": [
+    {
       "item": "core86:wet_concrete_mix"
+    },
+    {
+      "item": "core86:steel_rod"
     }
-  },
-  "result": {
-    "item": "core86:reinforced_concrete_block"
-  }
+  ],
+  "results": [
+    {
+      "item": "core86:reinforced_concrete_block"
+    }
+  ]
 }

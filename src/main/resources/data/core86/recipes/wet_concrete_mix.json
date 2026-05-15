@@ -3,12 +3,10 @@
   "ingredients": [
     {
       "item": "core86:cement_powder"
-    }
-  ],
-  "fluidIngredients": [
+    },
     {
       "fluid": "minecraft:water",
-      "amount": 1000
+      "amount": 250
     }
   ],
   "results": [
