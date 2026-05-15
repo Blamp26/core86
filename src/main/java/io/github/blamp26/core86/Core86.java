@@ -1,6 +1,7 @@
 package io.github.blamp26.core86;
 
 import io.github.blamp26.core86.foundation.registry.CoreBlocks;
+import io.github.blamp26.core86.foundation.registry.CoreBlockEntities;
 import io.github.blamp26.core86.foundation.registry.CoreCreativeTabs;
 import io.github.blamp26.core86.foundation.registry.CoreItems;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -16,6 +17,7 @@ public class Core86 {
 
         CoreBlocks.BLOCKS.register(modEventBus);
         CoreItems.ITEMS.register(modEventBus);
+        CoreBlockEntities.BLOCK_ENTITIES.register(modEventBus);
         CoreCreativeTabs.TABS.register(modEventBus);
     }
 }

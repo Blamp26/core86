@@ -4,5 +4,11 @@
   "item.core86.steel_rod": "Steel Rod",
   "item.core86.cement_powder": "Cement Powder",
   "item.core86.wet_concrete_mix": "Wet Concrete Mix",
-  "block.core86.reinforced_concrete_block": "Reinforced Concrete"
+  "block.core86.reinforced_concrete_block": "Reinforced Concrete",
+  
+  "block.core86.reactor_fuel_rod": "Reactor Fuel Rod",
+  "block.core86.reactor_graphite_moderator": "Reactor Graphite Moderator",
+  "block.core86.reactor_steam_channel": "Reactor Steam Channel",
+  "block.core86.reactor_control_rod": "Reactor Control Rod",
+  "block.core86.reactor_console": "Reactor Console"
 }

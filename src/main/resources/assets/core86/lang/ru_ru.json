@@ -4,5 +4,11 @@
   "item.core86.steel_rod": "Стальной стержень",
   "item.core86.cement_powder": "Цементная пудра",
   "item.core86.wet_concrete_mix": "Мокрый бетонный состав",
-  "block.core86.reinforced_concrete_block": "Усиленный бетон"
+  "block.core86.reinforced_concrete_block": "Усиленный бетон",
+  
+  "block.core86.reactor_fuel_rod": "Топливный стержень реактора",
+  "block.core86.reactor_graphite_moderator": "Графитовый замедлитель реактора",
+  "block.core86.reactor_steam_channel": "Паровой канал реактора",
+  "block.core86.reactor_control_rod": "Управляющий стержень реактора",
+  "block.core86.reactor_console": "Консоль реактора"
 }

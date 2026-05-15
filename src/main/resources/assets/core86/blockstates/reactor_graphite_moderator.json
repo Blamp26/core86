@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "core86:block/reactor_graphite_moderator" }
+  }
+}

@@ -20,6 +20,18 @@ public final class CoreItems {
     public static final RegistryObject<Item> WET_CONCRETE_MIX = ITEMS.register("wet_concrete_mix", () -> new WetConcreteMixItem(new Item.Properties()));
     public static final RegistryObject<Item> REINFORCED_CONCRETE_BLOCK_ITEM = ITEMS.register("reinforced_concrete_block", () -> new BlockItem(CoreBlocks.REINFORCED_CONCRETE_BLOCK.get(), new Item.Properties()));
 
+    // Reactor Items
+    public static final RegistryObject<Item> REACTOR_FUEL_ROD = ITEMS.register("reactor_fuel_rod", 
+            () -> new BlockItem(CoreBlocks.REACTOR_FUEL_ROD.get(), new Item.Properties()));
+    public static final RegistryObject<Item> REACTOR_GRAPHITE_MODERATOR = ITEMS.register("reactor_graphite_moderator", 
+            () -> new BlockItem(CoreBlocks.REACTOR_GRAPHITE_MODERATOR.get(), new Item.Properties()));
+    public static final RegistryObject<Item> REACTOR_STEAM_CHANNEL = ITEMS.register("reactor_steam_channel", 
+            () -> new BlockItem(CoreBlocks.REACTOR_STEAM_CHANNEL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> REACTOR_CONTROL_ROD = ITEMS.register("reactor_control_rod", 
+            () -> new BlockItem(CoreBlocks.REACTOR_CONTROL_ROD.get(), new Item.Properties()));
+    public static final RegistryObject<Item> REACTOR_CONSOLE = ITEMS.register("reactor_console", 
+            () -> new BlockItem(CoreBlocks.REACTOR_CONSOLE.get(), new Item.Properties()));
+
     private CoreItems() {
     }
 }

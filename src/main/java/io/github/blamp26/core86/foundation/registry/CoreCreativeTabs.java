@@ -21,6 +21,13 @@ public final class CoreCreativeTabs {
                 output.accept(CoreItems.CEMENT_POWDER.get());
                 output.accept(CoreItems.WET_CONCRETE_MIX.get());
                 output.accept(CoreItems.REINFORCED_CONCRETE_BLOCK_ITEM.get());
+                
+                // Reactor
+                output.accept(CoreItems.REACTOR_FUEL_ROD.get());
+                output.accept(CoreItems.REACTOR_GRAPHITE_MODERATOR.get());
+                output.accept(CoreItems.REACTOR_STEAM_CHANNEL.get());
+                output.accept(CoreItems.REACTOR_CONTROL_ROD.get());
+                output.accept(CoreItems.REACTOR_CONSOLE.get());
             })
             .withTabsBefore(CreativeModeTabs.COMBAT)
             .build());
