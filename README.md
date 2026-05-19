@@ -1,49 +1,80 @@
 ![CORE86 title](assets/readme/minecraft_title_banner.png)
 
-# CORE86
+<h1 align="center">CORE86</h1>
+<p align="center">Industrial reactor engineering for Minecraft 1.20.1 (Forge)</p>
 
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access
-to some of the data and functions you need to build a successful mod.
+## About
+CORE86 is a technical mod focused on reactor operations, steam power flow, and accident management.
+The design direction is "operator realism":
+you build physical reactor layouts, run tests from a console, manage control rods and coolant, and handle the consequences of mistakes.
 
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
+Current development is centered on the RBMK-inspired reactor line:
+- fuel / graphite / control / steam channel structure scanning
+- dynamic rod drive and SCRAM behavior
+- xenon poisoning and experiment mode
+- staged meltdown with persistent invisible radiation zones
 
-## Setup Process
+## Features
+- Multi-block reactor validation and channel mapping
+- Unified reactor console with manual and grouped rod control
+- AZ-5 / SCRAM logic with drive-state constraints
+- Xenon poisoning telemetry in reactor UI
+- Steam production pipeline for turbine-side integration
+- Post-meltdown radiation model with dose accumulation
+- Dosimeter item and debug command (`/core86 radiation info`)
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+## Installation
+1. Install Minecraft `1.20.1` and Forge `47.x`.
+2. Drop the built `core86` jar into your `mods` folder.
+3. Start the game and create a world.
 
-Step 2: You're left with a choice.
+## Development
+### Requirements
+- JDK 17
+- Git
 
-If you prefer to use Eclipse:
-1. Run the following command: `./gradlew genEclipseRuns`
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder
-   or run `gradlew eclipse` to generate the project.
+### Setup
+1. Clone the repository.
+2. Open the project root in IntelliJ IDEA.
+3. Run:
+```bash
+./gradlew genIntellijRuns
+```
+4. Use the generated `Minecraft Client` run configuration.
 
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `./gradlew genIntellijRuns`
-4. Refresh the Gradle Project in IDEA if required.
+### Build
+```bash
+./gradlew build
+```
+Built jars are generated in `build/libs`.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything
-(this does not affect your code) and then start the process again.
+## Asset Workflow
+To keep art clean and avoid folder noise:
+- Blockbench source files live in `art/blockbench/`
+- Runtime block textures live in `src/main/resources/assets/core86/textures/block/`
+- Runtime item textures live in `src/main/resources/assets/core86/textures/item/`
 
-## Mapping Names
+Suggested working pattern:
+1. Keep editable sources in `art/blockbench/blocks/...` and `art/blockbench/items/...`
+2. Export only final PNGs to `src/main/resources/assets/core86/textures/...`
 
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+## Project Status
+This project is actively iterating and balance values are still in flux.
+Expect frequent changes to:
+- reactor thermal constants
+- control rod timing
+- experiment-mode risk curve
+- radiation tuning
 
-## Additional Resources
+## Contributing
+Issues and pull requests are welcome.
+When reporting bugs, include:
+- exact game version
+- forge version
+- mod list
+- reproduction steps
+- latest log snippet
 
-Community Documentation: https://docs.minecraftforge.net/en/1.20.1/gettingstarted/
-LexManos' Install Video: https://youtu.be/8VEdtQLuLO0
-Forge Forums: https://forums.minecraftforge.net/
-Forge Discord: https://discord.minecraftforge.net/
+## Credits
+- Built on Minecraft Forge MDK
+- Gameplay direction inspired by large Create-adjacent engineering mods and simulation-first mod design
