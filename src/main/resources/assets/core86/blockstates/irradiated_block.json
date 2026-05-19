@@ -1,0 +1,5 @@
+﻿{
+  "variants": {
+    "": { "model": "core86:block/irradiated_block" }
+  }
+}

@@ -1,0 +1,7 @@
+{ 
+  "replace": false, 
+  "values": [
+    "core86:uranium_ore", 
+    "core86:deepslate_uranium_ore"
+  ] 
+ } 

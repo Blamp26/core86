@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI",
+    "CTC",
+    "IRI"
+  ],
+  "key": {
+    "I": { "item": "core86:steel_ingot" },
+    "C": { "item": "minecraft:copper_block" },
+    "T": { "item": "core86:steam_turbine" },
+    "R": { "item": "minecraft:redstone" }
+  },
+  "result": {
+    "item": "core86:steam_condenser",
+    "count": 1
+  }
+}

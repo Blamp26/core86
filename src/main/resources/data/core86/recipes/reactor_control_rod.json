@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SBS",
+    "SBS",
+    "SBS"
+  ],
+  "key": {
+    "S": {
+      "item": "core86:steel_rod"
+    },
+    "B": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "item": "core86:reactor_control_rod",
+    "count": 2
+  }
+}

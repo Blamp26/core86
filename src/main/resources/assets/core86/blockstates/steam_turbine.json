@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "core86:block/steam_turbine" },
+    "facing=south": { "model": "core86:block/steam_turbine", "y": 180 },
+    "facing=east":  { "model": "core86:block/steam_turbine", "y": 90  },
+    "facing=west":  { "model": "core86:block/steam_turbine", "y": 270 },
+    "facing=up":    { "model": "core86:block/steam_turbine", "x": -90 },
+    "facing=down":  { "model": "core86:block/steam_turbine", "x": 90  }
+  }
+}

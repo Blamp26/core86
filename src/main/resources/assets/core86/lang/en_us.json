@@ -8,7 +8,22 @@
   
   "block.core86.reactor_fuel_rod": "Reactor Fuel Rod",
   "block.core86.reactor_graphite_moderator": "Reactor Graphite Moderator",
+  "block.core86.reactor_neutron_reflector": "Neutron Reflector",
   "block.core86.reactor_steam_channel": "Reactor Steam Channel",
   "block.core86.reactor_control_rod": "Reactor Control Rod",
-  "block.core86.reactor_console": "Reactor Console"
+   "block.core86.reactor_console": "Reactor Console",
+   "block.core86.reactor_console_siur": "SIUR Reactor Console",
+   "item.core86.uranium_fuel_pellet": "Uranium Fuel Pellet",
+    "item.core86.uranium_dust": "Uranium Dust",
+    "item.core86.empty_fuel_rod": "Empty Fuel Rod",
+   "item.core86.rbmk_fuel_rod": "RBMK Fuel Rod",
+   "item.core86.spent_fuel_rod": "Spent Fuel Rod",
+   "item.core86.siur_key_token": "SIUR Key Token",
+   "item.core86.dosimeter": "Dosimeter",
+   "item.core86.dosimeter.tooltip": "Measures invisible radiation when carried in the hotbar.",
+   "block.core86.irradiated_block": "Irradiated Zone",
+    "block.core86.uranium_ore": "Uranium Ore",
+    "block.core86.deepslate_uranium_ore": "Deepslate Uranium Ore",
+    "block.core86.steam_turbine": "Steam Turbine",
+    "block.core86.steam_condenser": "Steam Condenser"
 }

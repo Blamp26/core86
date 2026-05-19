@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IGI",
+    "GCG",
+    "IGI"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_block" },
+    "G": { "item": "core86:reactor_graphite_moderator" },
+    "C": { "item": "minecraft:copper_block" }
+  },
+  "result": {
+    "item": "core86:reactor_neutron_reflector",
+    "count": 4
+  }
+}

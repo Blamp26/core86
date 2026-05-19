@@ -1,0 +1,17 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SRS",
+    "RPR",
+    "SRS"
+  ],
+  "key": {
+    "S": { "item": "core86:steel_ingot" },
+    "R": { "item": "minecraft:redstone" },
+    "P": { "item": "core86:spent_fuel_rod" }
+  },
+  "result": {
+    "item": "core86:siur_key_token",
+    "count": 1
+  }
+}

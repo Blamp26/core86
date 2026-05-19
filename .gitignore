@@ -23,3 +23,9 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+
+# local art/tooling scratch
+*.bbmodel
+structure.py
+log.txt
+project_full_dump.txt

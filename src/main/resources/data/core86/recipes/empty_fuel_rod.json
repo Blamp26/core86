@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "core86:steel_rod"
+    }
+  },
+  "result": {
+    "item": "core86:empty_fuel_rod",
+    "count": 1
+  }
+}

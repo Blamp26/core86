@@ -1,6 +1,14 @@
 {
   "replace": false,
   "values": [
-    "core86:reinforced_concrete_block"
+    "core86:reinforced_concrete_block",
+    "core86:uranium_ore",
+    "core86:deepslate_uranium_ore",
+    "core86:reactor_fuel_rod",
+    "core86:reactor_graphite_moderator",
+    "core86:reactor_neutron_reflector",
+    "core86:reactor_steam_channel",
+    "core86:reactor_control_rod",
+    "core86:reactor_console"
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "SCS",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "item": "core86:reinforced_concrete_block"
+    },
+    "S": {
+      "item": "core86:steel_ingot"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "result": {
+    "item": "core86:reactor_console",
+    "count": 1
+  }
+}

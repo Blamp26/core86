@@ -1,0 +1,13 @@
+{ 
+  "type": "create:mixing", 
+  "ingredients": [ 
+    { "tag": "forge:dusts/uranium" }, 
+    { "item": "minecraft:water_bucket" } 
+  ], 
+  "results": [ 
+    { "item": "core86:uranium_fuel_pellet" }, 
+    { "item": "minecraft:bucket" } 
+  ], 
+  "heatRequirement": "heated", 
+  "processingTime": 300 
+ } 
